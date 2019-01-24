@@ -18,7 +18,7 @@ class Dog
   def self.clear_all
     @@all = []
   end 
-
+binding.pry
 end
 
 
