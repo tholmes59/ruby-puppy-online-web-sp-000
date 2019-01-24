@@ -12,7 +12,7 @@ class Dog
   end 
   
   def self.all
-    @@all.each {|name| puts "#{name}"}
+    @@all.each {|object, name| puts "#{name}"}
   end 
-  binding.pry
+ 
 end
