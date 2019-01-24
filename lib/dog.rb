@@ -12,7 +12,7 @@ class Dog
   end 
   
   def self.all
-    @@all.each {|object_id, dog_name| puts "#{dog_name}"}
+    @@all.each {|name| puts "#{name}"}
   end 
 
 end
