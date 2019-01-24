@@ -14,11 +14,11 @@ class Dog
   def self.all
     @@all.each {|dog| puts dog.name}
   end 
-  
+  binding.pry
   def self.clear_all
     @@all = []
   end 
-binding.pry
+
 end
 
 
