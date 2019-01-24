@@ -18,4 +18,3 @@ class Dog
 end
 
 
-.each {|name| puts "#{name}"}
